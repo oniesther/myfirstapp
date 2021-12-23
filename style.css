@@ -1,0 +1,130 @@
+/* import file */
+
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(supperslides.css);
+@import url(baguetbox.min.css);
+
+/* basic styling */
+body{
+ color: #fff;
+  font-size: 15px;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.80857;
+}
+
+  #con{
+    background-color: #d65016;
+  }  
+#wel{
+  color: #d65016;
+}
+
+*{
+  color: #1f1f1f;
+  text-decoration: none !important;
+  outline: none !important;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -ms-transition:all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+}
+ h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  letter-spacing: 0;
+  font-weight: normal;
+  position: relative;
+  padding: 0 0 10px 0;
+  font-weight: normal;
+  line-height: 120% !important;
+  color: #1f1f1f;
+  margin: 0;
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 22px;
+}
+h3{
+
+  font-size: 18px;
+}
+h4{
+  font-size: 16px;
+}
+h5{
+  font-size: 14px;
+}
+h6{
+  font-size: 12px;
+}
+.top-navbar{
+  position: relative;
+  z-index: 10;
+}
+.top-navbar .navbar-light .navbar-nav .nav-link{
+  color: #010101;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 4%;
+  text-transform: uppercase;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover {
+   background: #d65016;
+   color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+  background: #d65016;
+  color: #ffffff;
+  border-radius: 4px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  box-shadow: 2px 5px 6px rgba(0,0,0,.5);
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a{
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover{
+  background: #d65016;
+  color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+  background: #d65016;
+  color: #ffffff;
+}
+.inner-colume{
+   background-image: url('/images/food2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.out-colume{
+  background-image: url('/images/Banner-v4-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.footer-aria{
+  background-image: url('/images/Banner-v5-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+ 
+
+
+
+
